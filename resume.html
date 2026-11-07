@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratheep S - Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    @page {
+      size: letter;
+      margin: 14mm 16mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #111827;
+      background: #ffffff;
+      line-height: 1.45;
+      font-size: 9.8pt;
+    }
+    .cv-container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 10px 15px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+    }
+    .header h1 {
+      font-size: 20pt;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #000000;
+      margin-bottom: 4px;
+    }
+    .header .contact-line {
+      font-size: 9pt;
+      color: #374151;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .header .contact-line a {
+      color: #111827;
+      text-decoration: none;
+    }
+    .section {
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #000000;
+      border-bottom: 1.5px solid #000000;
+      padding-bottom: 2px;
+      margin-bottom: 6px;
+    }
+    p {
+      color: #1f2937;
+      font-size: 9.5pt;
+      line-height: 1.45;
+      text-align: justify;
+    }
+    .edu-block {
+      margin-bottom: 6px;
+    }
+    .edu-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .edu-inst {
+      font-weight: 700;
+      font-size: 9.8pt;
+      color: #000000;
+    }
+    .edu-degree {
+      font-size: 9.3pt;
+      color: #1f2937;
+    }
+    .edu-timeline {
+      font-size: 9pt;
+      color: #374151;
+      font-weight: 500;
+    }
+    .edu-scores {
+      font-size: 9.2pt;
+      color: #1f2937;
+      margin-top: 1px;
+    }
+    .skills-list {
+      list-style-type: none;
+    }
+    .skills-list li {
+      margin-bottom: 3px;
+      font-size: 9.3pt;
+      color: #1f2937;
+      line-height: 1.4;
+      display: flex;
+    }
+    .skills-list li::before {
+      content: "•";
+      margin-right: 6px;
+      color: #000000;
+    }
+    .skills-list strong {
+      color: #000000;
+      margin-right: 4px;
+    }
+    .proj-block {
+      margin-bottom: 10px;
+    }
+    .proj-header {
+      font-weight: 700;
+      font-size: 9.8pt;
+      color: #000000;
+      margin-bottom: 3px;
+    }
+    .proj-header span {
+      font-weight: 500;
+      color: #374151;
+    }
+    .proj-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .proj-list li {
+      margin-bottom: 4px;
+      font-size: 9.2pt;
+      color: #1f2937;
+      line-height: 1.4;
+      display: flex;
+    }
+    .proj-list li::before {
+      content: "•";
+      margin-right: 6px;
+      color: #000000;
+      flex-shrink: 0;
+    }
+    @media print {
+      body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .no-print {
+        display: none;
+      }
+      .cv-container {
+        padding: 0;
+      }
+    }
+    .print-bar {
+      background: #0A0E20;
+      color: #ffffff;
+      padding: 10px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 8px;
+      margin-bottom: 14px;
+    }
+    .print-btn {
+      background: #F5A623;
+      color: #0A0E20;
+      border: none;
+      padding: 6px 16px;
+      font-weight: 600;
+      border-radius: 9999px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv-container">
+    <div class="print-bar no-print">
+      <span>📄 <strong>Pratheep S - Official Resume Preview</strong></span>
+      <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+    </div>
+
+    <div class="header">
+      <h1>PRATHEEP S</h1>
+      <div class="contact-line">
+        <span>Chennai, Tamil Nadu, India</span>
+        <span>|</span>
+        <a href="tel:+917358054637">+91 7358054637</a>
+        <span>|</span>
+        <a href="mailto:pratheepsara2000@gmail.com">pratheepsara2000@gmail.com</a>
+        <span>|</span>
+        <a href="https://github.com/pratheep0707" target="_blank">github.com/pratheep0707</a>
+      </div>
+    </div>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <div class="section">
+      <div class="section-title">Professional Summary</div>
+      <p>
+        Second-year B.Tech Computer Science student at VIT Chennai seeking an analytics internship. Built a Power BI dashboard on 1,470 employee records that estimated an $11.27M attrition cost and identified the main drivers of turnover, plus a Python machine learning system for soil erosion risk. Skilled in SQL, Python, Power BI, DAX, Excel and data visualization.
+      </p>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="section">
+      <div class="section-title">Education</div>
+      <div class="edu-block">
+        <div class="edu-row">
+          <span class="edu-inst">Vellore Institute of Technology, Chennai, Tamil Nadu, India</span>
+        </div>
+        <div class="edu-row">
+          <span class="edu-degree">Bachelor of Technology in Computer Science and Engineering</span>
+          <span class="edu-timeline">Expected Graduation: 2029</span>
+        </div>
+      </div>
+      <div class="edu-block" style="margin-top: 6px;">
+        <div class="edu-row">
+          <span class="edu-inst">Central Board of Secondary Education (CBSE)</span>
+        </div>
+        <div class="edu-scores">
+          Class XII: 92.0% | Class X: 93.4%
+        </div>
+      </div>
+    </div>
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="section">
+      <div class="section-title">Technical Skills</div>
+      <ul class="skills-list">
+        <li><strong>Programming Languages:</strong> Python, SQL, Java, C, C++</li>
+        <li><strong>Data Analysis:</strong> Exploratory Data Analysis, Data Cleaning, Data Preprocessing, Data Transformation, Feature Engineering, Statistics, Data Visualization, Dashboard Development</li>
+        <li><strong>Tools:</strong> Power BI, DAX, Power Query, Excel, Jupyter Notebook, Google Colab, Anaconda, Git, GitHub</li>
+        <li><strong>Databases:</strong> SQL, Oracle Database</li>
+        <li><strong>Computer Science:</strong> Data Structures and Algorithms, Operating Systems, Object-Oriented Programming</li>
+      </ul>
+    </div>
+
+    <!-- PROJECTS & EXPERIENCE -->
+    <div class="section">
+      <div class="section-title">Projects & Experience</div>
+      
+      <!-- Project 1 -->
+      <div class="proj-block">
+        <div class="proj-header">
+          HR Workforce Dynamics and Attrition Cost Analysis <span>| Power BI, DAX, Excel, Power Query</span>
+        </div>
+        <ul class="proj-list">
+          <li>Built a Power BI dashboard on 1,470 employee records that estimates a total replacement cost of $11.27M, using SHRM industry benchmarks and a star schema with a five-tier seniority cost table (0.50x to 1.50x annual salary).</li>
+          <li>Wrote DAX measures showing a 16.12% baseline attrition rate, with 42% of exits within two years and 30.5% attrition among overtime employees against a 10.4% baseline.</li>
+          <li>Created a flight-risk metric from promotion delays, satisfaction scores, overtime and pay tier to give HR a retention watchlist.</li>
+          <li>Added departmental and overtime slicers and conditional formatting that show $4.63M of cost concentrated in Sales Executives.</li>
+        </ul>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="proj-block">
+        <div class="proj-header">
+          Soil Erosion Prediction and Risk Assessment System <span>| Python, Scikit-learn, GeoPandas</span>
+        </div>
+        <ul class="proj-list">
+          <li>Built a machine learning pipeline that predicts annual soil loss (t/ha/yr) using the RUSLE model and supervised regression on cleaned soil, rainfall, land cover and slope data.</li>
+          <li>Trained separate urban and rural models and saved feature importance outputs.</li>
+          <li>Produced GeoJSON and PNG risk maps with five severity levels and deployed a browser-based tool for region-wise erosion risk.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
